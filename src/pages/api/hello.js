@@ -22,6 +22,8 @@ const removeHeadersMiddleware = (req, res) => {
   const headers = { ...req.headersDistinct };
   delete headers["Rndr-Id"];
   delete headers["rndr-id"];
+  delete headers["Render-Proxy-Ttl"]
+  delete headers["render-proxy-ttl"]
 
   // Create a new Request object with the modified headers
   req.headersDistinct = headers;
