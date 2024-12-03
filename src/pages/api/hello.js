@@ -14,22 +14,5 @@ const { handler } = servePagesRouter(async (context) => {
       return j + 1;
     });
   }
-  console.log("done");
 });
-
-const removeHeadersMiddleware = (req, res) => {
-  // Clone the request headers and remove specific ones
-  const headers = { ...req.headersDistinct };
-  // delete headers["Rndr-Id"];
-  // delete headers["rndr-id"];
-  delete headers["Render-Proxy-Ttl"]
-  delete headers["render-proxy-ttl"]
-
-  // Create a new Request object with the modified headers
-  req.headersDistinct = headers;
-
-  // Forward the sanitized request to the original handler
-  return handler(req, res);
-};
-
-export default removeHeadersMiddleware;
+export default handler

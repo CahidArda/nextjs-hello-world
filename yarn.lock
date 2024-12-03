@@ -188,10 +188,10 @@
     jose "^5.2.3"
     neverthrow "^7.0.1"
 
-"@upstash/workflow@0.2.0-cf-canary":
-  version "0.2.0-cf-canary"
-  resolved "https://registry.yarnpkg.com/@upstash/workflow/-/workflow-0.2.0-cf-canary.tgz#f2002455dc2a586d618d4f30b6098318a278870d"
-  integrity sha512-YD7ypstEqX0o6YWIBqf/Tk7beCuI6HaK5d+fBh5CXa5zmOx8qbzo8KzpFaIftvKh5Je5EWkbPD1Na4xtWIZcig==
+"@upstash/workflow@^0.0.0-ci.cde95021c0748dbd9a997e78682ab5bfd3c833ba-20241203203815":
+  version "0.0.0-ci.cde95021c0748dbd9a997e78682ab5bfd3c833ba-20241203203815"
+  resolved "https://registry.yarnpkg.com/@upstash/workflow/-/workflow-0.0.0-ci.cde95021c0748dbd9a997e78682ab5bfd3c833ba-20241203203815.tgz#ea28e79cc886dbf37a9a8ff1beb9f6813c552b03"
+  integrity sha512-8pAp6YXgN3KH7Lx4E4AUo47z+n235Wj8iWLLxE/SYd3vvJnRLY9ohUU8P+oimjA5uDTawGDFzuaRx3OvWGBFgQ==
   dependencies:
     "@upstash/qstash" "^2.7.17"
 

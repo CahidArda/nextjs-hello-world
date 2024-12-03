@@ -7,7 +7,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@upstash/workflow": "0.2.0-cf-canary",
+    "@upstash/workflow": "^0.0.0-ci.cde95021c0748dbd9a997e78682ab5bfd3c833ba-20241203203815",
     "next": "^15.0.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
